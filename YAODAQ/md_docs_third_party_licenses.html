@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('md_docs_third_party_licenses.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,7 +83,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div><div class="header">
   <div class="headertitle"><div class="title">third_party_licenses </div></div>
 </div><!--header-->
@@ -77,6 +97,175 @@ $(function() {
 <p> The following software may be included in this product: magic_enum. This software contains the following license and notice below:</p>
 <p >MIT License</p>
 <p >Copyright (c) 2019 - 2021 Daniil Goncharov</p>
+<p >Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p >The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<hr  />
+<p> The following software may be included in this product: zlib-ng. This software contains the following license and notice below:</p>
+<p >(C) 1995-2013 Jean-loup Gailly and Mark Adler</p>
+<p >This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.</p>
+<p >Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:</p>
+<ol type="1">
+<li>The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.</li>
+<li>Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.</li>
+<li>This notice may not be removed or altered from any source distribution.</li>
+</ol>
+<hr  />
+<p> The following software may be included in this product: OpenSSL-CMake. This software contains the following license and notice below:</p>
+<p >MIT License</p>
+<p >Copyright (c) 2020 flagarde</p>
+<p >Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p >The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<hr  />
+<p> The following software may be included in this product: OpenSSL. This software contains the following license and notice below:</p>
+<h1><a class="anchor" id="autotoc_md4"></a>
+LICENSE ISSUES</h1>
+<p >The OpenSSL toolkit stays under a double license, i.e. both the conditions of the OpenSSL License and the original SSLeay license apply to the toolkit. See below for the actual license texts.</p>
+<h2><a class="anchor" id="autotoc_md5"></a>
+OpenSSL License</h2>
+<p >/* ====================================================================</p><ul>
+<li>Copyright (c) 1998-2019 The OpenSSL Project. All rights reserved.</li>
+<li></li>
+<li>Redistribution and use in source and binary forms, with or without</li>
+<li>modification, are permitted provided that the following conditions</li>
+<li>are met:</li>
+<li></li>
+<li>1. Redistributions of source code must retain the above copyright</li>
+<li>notice, this list of conditions and the following disclaimer.</li>
+<li></li>
+<li>2. Redistributions in binary form must reproduce the above copyright</li>
+<li>notice, this list of conditions and the following disclaimer in</li>
+<li>the documentation and/or other materials provided with the</li>
+<li>distribution.</li>
+<li></li>
+<li>3. All advertising materials mentioning features or use of this</li>
+<li>software must display the following acknowledgment:</li>
+<li>"This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)"</li>
+<li></li>
+<li>4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to</li>
+<li>endorse or promote products derived from this software without</li>
+<li>prior written permission. For written permission, please contact</li>
+<li><a href="#" onclick="location.href='mai'+'lto:'+'ope'+'ns'+'sl-'+'co'+'re@'+'op'+'ens'+'sl'+'.or'+'g'; return false;">opens<span class="obfuscator">.nosp@m.</span>sl-c<span class="obfuscator">.nosp@m.</span>ore@o<span class="obfuscator">.nosp@m.</span>pens<span class="obfuscator">.nosp@m.</span>sl.or<span class="obfuscator">.nosp@m.</span>g</a>.</li>
+<li></li>
+<li>5. Products derived from this software may not be called "OpenSSL"</li>
+<li>nor may "OpenSSL" appear in their names without prior written</li>
+<li>permission of the OpenSSL Project.</li>
+<li></li>
+<li>6. Redistributions of any form whatsoever must retain the following</li>
+<li>acknowledgment:</li>
+<li>"This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit (http://www.openssl.org/)"</li>
+<li></li>
+<li>THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT `&lsquo;AS IS&rsquo;' AND ANY</li>
+<li>EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</li>
+<li>IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR</li>
+<li>PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR</li>
+<li>ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,</li>
+<li>SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT</li>
+<li>NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;</li>
+<li>LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)</li>
+<li>HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,</li>
+<li>STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</li>
+<li>ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED</li>
+<li>OF THE POSSIBILITY OF SUCH DAMAGE.</li>
+<li>====================================================================</li>
+<li></li>
+<li>This product includes cryptographic software written by Eric Young</li>
+<li>(<a href="#" onclick="location.href='mai'+'lto:'+'eay'+'@c'+'ryp'+'ts'+'oft'+'.c'+'om'; return false;">eay@c<span class="obfuscator">.nosp@m.</span>rypt<span class="obfuscator">.nosp@m.</span>soft.<span class="obfuscator">.nosp@m.</span>com</a>). This product includes software written by Tim</li>
+<li>Hudson (<a href="#" onclick="location.href='mai'+'lto:'+'tjh'+'@c'+'ryp'+'ts'+'oft'+'.c'+'om'; return false;">tjh@c<span class="obfuscator">.nosp@m.</span>rypt<span class="obfuscator">.nosp@m.</span>soft.<span class="obfuscator">.nosp@m.</span>com</a>).</li>
+<li>*/</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Original SSLeay License</h2>
+<p >/* Copyright (C) 1995-1998 Eric Young (<a href="#" onclick="location.href='mai'+'lto:'+'eay'+'@c'+'ryp'+'ts'+'oft'+'.c'+'om'; return false;">eay@c<span class="obfuscator">.nosp@m.</span>rypt<span class="obfuscator">.nosp@m.</span>soft.<span class="obfuscator">.nosp@m.</span>com</a>)</p><ul>
+<li>All rights reserved.</li>
+<li></li>
+<li>This package is an SSL implementation written</li>
+<li>by Eric Young (<a href="#" onclick="location.href='mai'+'lto:'+'eay'+'@c'+'ryp'+'ts'+'oft'+'.c'+'om'; return false;">eay@c<span class="obfuscator">.nosp@m.</span>rypt<span class="obfuscator">.nosp@m.</span>soft.<span class="obfuscator">.nosp@m.</span>com</a>).</li>
+<li>The implementation was written so as to conform with Netscapes SSL.</li>
+<li></li>
+<li>This library is free for commercial and non-commercial use as long as</li>
+<li>the following conditions are aheared to. The following conditions</li>
+<li>apply to all code found in this distribution, be it the RC4, RSA,</li>
+<li>lhash, DES, etc., code; not just the SSL code. The SSL documentation</li>
+<li>included with this distribution is covered by the same copyright terms</li>
+<li>except that the holder is Tim Hudson (<a href="#" onclick="location.href='mai'+'lto:'+'tjh'+'@c'+'ryp'+'ts'+'oft'+'.c'+'om'; return false;">tjh@c<span class="obfuscator">.nosp@m.</span>rypt<span class="obfuscator">.nosp@m.</span>soft.<span class="obfuscator">.nosp@m.</span>com</a>).</li>
+<li></li>
+<li>Copyright remains Eric Young's, and as such any Copyright notices in</li>
+<li>the code are not to be removed.</li>
+<li>If this package is used in a product, Eric Young should be given attribution</li>
+<li>as the author of the parts of the library used.</li>
+<li>This can be in the form of a textual message at program startup or</li>
+<li>in documentation (online or textual) provided with the package.</li>
+<li></li>
+<li>Redistribution and use in source and binary forms, with or without</li>
+<li>modification, are permitted provided that the following conditions</li>
+<li>are met:</li>
+<li>1. Redistributions of source code must retain the copyright</li>
+<li>notice, this list of conditions and the following disclaimer.</li>
+<li>2. Redistributions in binary form must reproduce the above copyright</li>
+<li>notice, this list of conditions and the following disclaimer in the</li>
+<li>documentation and/or other materials provided with the distribution.</li>
+<li>3. All advertising materials mentioning features or use of this software</li>
+<li>must display the following acknowledgement:</li>
+<li>"This product includes cryptographic software written by
+ *     Eric Young (eay@cryptsoft.com)"</li>
+<li>The word 'cryptographic' can be left out if the rouines from the library</li>
+<li>being used are not cryptographic related :-).</li>
+<li>4. If you include any Windows specific code (or a derivative thereof) from</li>
+<li>the apps directory (application code) you must include an acknowledgement:</li>
+<li>"This product includes software written by Tim Hudson (tjh@cryptsoft.com)"</li>
+<li></li>
+<li>THIS SOFTWARE IS PROVIDED BY ERIC YOUNG `&lsquo;AS IS&rsquo;' AND</li>
+<li>ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</li>
+<li>IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</li>
+<li>ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE</li>
+<li>FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL</li>
+<li>DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS</li>
+<li>OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)</li>
+<li>HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT</li>
+<li>LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY</li>
+<li>OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF</li>
+<li>SUCH DAMAGE.</li>
+<li></li>
+<li>The licence and distribution terms for any publically available version or</li>
+<li>derivative of this code cannot be changed. i.e. this code cannot simply be</li>
+<li>copied and put under another distribution licence</li>
+<li>[including the GNU Public Licence.] */</li>
+</ul>
+<hr  />
+<p> The following software may be included in this product: IXWebSocket. This software contains the following license and notice below:</p>
+<p >Copyright (c) 2018 Machine Zone, Inc. All rights reserved.</p>
+<p >Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+<ol type="1">
+<li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+<li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
+<li>Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</li>
+</ol>
+<p >THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+<hr  />
+<p> The following software may be included in this product: fmt. This software contains the following license and notice below:</p>
+<p >Copyright (c) 2012 - present, Victor Zverovich</p>
+<p >Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p >The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p >&mdash; Optional exception to the license &mdash;</p>
+<p >As an exception, if, as a result of your compiling your source code, portions of this Software are embedded into a machine-executable object form of such source code, you may redistribute such embedded portions in such object form without including the above copyright and permission notices.</p>
+<hr  />
+<p> The following software may be included in this product: spdlog. This software contains the following license and notice below:</p>
+<p >The MIT License (MIT)</p>
+<p >Copyright (c) 2016 Gabi Melman. <br  />
+</p>
+<p >Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p >The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p >&ndash; NOTE: Third party dependency used by this software &ndash; This software depends on the fmt lib (MIT License), and users must comply to its license: <a href="https://github.com/fmtlib/fmt/blob/master/LICENSE.rst">https://github.com/fmtlib/fmt/blob/master/LICENSE.rst</a></p>
+<hr  />
+<p> The following software may be included in this product: nlohmann. This software contains the following license and notice below:</p>
+<p >MIT License</p>
+<p >Copyright (c) 2013-2022 Niels Lohmann</p>
 <p >Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 <p >The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 <p >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
@@ -99,9 +288,12 @@ $(function() {
 <p >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
 </body>
 </html>

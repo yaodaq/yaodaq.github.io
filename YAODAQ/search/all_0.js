@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['browser_0',['Browser',['../namespaceyaodaq.html#aaffeeac7c76409166db65a952cd10a73aef15fd2f45e6bb5ce57587895ba64f93',1,'yaodaq']]]
+  ['addsink_0',['addSink',['../classyaodaq_1_1_logger_handler.html#ae7aa5812568d6bf5949d640f9a9f6c32',1,'yaodaq::LoggerHandler']]]
 ];

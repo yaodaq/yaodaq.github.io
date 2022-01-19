@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['license_0',['License',['../md__license.html',1,'']]],
-  ['license_2emd_1',['License.md',['../_license_8md.html',1,'']]]
+  ['error_0',['Error',['../classyaodaq_1_1_logger_handler.html#a9ff4a0c06d54857bf9b36147e2d56001a902b0d55fddef6f8d651fe1035b7d4bd',1,'yaodaq::LoggerHandler']]]
 ];

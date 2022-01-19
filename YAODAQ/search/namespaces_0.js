@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yaodaq_0',['yaodaq',['../namespaceyaodaq.html',1,'']]]
+  ['spdlog_0',['spdlog',['../namespacespdlog.html',1,'']]]
 ];
