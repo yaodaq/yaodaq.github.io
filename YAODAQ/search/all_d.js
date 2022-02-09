@@ -1,4 +1,19 @@
 var searchData=
 [
-  ['verbosity_0',['Verbosity',['../classyaodaq_1_1_logger_handler.html#a9ff4a0c06d54857bf9b36147e2d56001',1,'yaodaq::LoggerHandler']]]
+  ['segv_0',['SEGV',['../namespaceyaodaq.html#a285eddb8738ce96504d224dcc1dcded2a26b66c8b40deb496af24c4fec6e4506b',1,'yaodaq']]],
+  ['setformat_1',['setFormat',['../classyaodaq_1_1_exception.html#a22b7cf40341c9abdfc90ed024cfe851e',1,'yaodaq::Exception']]],
+  ['setstyle_2',['setStyle',['../classyaodaq_1_1_exception.html#a7f94d1cb18d7ad35243760bff140a907',1,'yaodaq::Exception']]],
+  ['setverbosity_3',['setVerbosity',['../classyaodaq_1_1_logger_handler.html#ac8d2042486c891ec7c3d6e33b8ac7705',1,'yaodaq::LoggerHandler::setVerbosity()'],['../classyaodaq_1_1_websocket_server.html#a4e7084b21c48b50156884c28d047f808',1,'yaodaq::WebsocketServer::setVerbosity()']]],
+  ['severity_4',['Severity',['../namespaceyaodaq.html#ace8282a2f4797b7cc8f203e9b7acc14a',1,'yaodaq']]],
+  ['severity_2ehpp_5',['Severity.hpp',['../_severity_8hpp.html',1,'']]],
+  ['signal_6',['Signal',['../namespaceyaodaq.html#a285eddb8738ce96504d224dcc1dcded2',1,'yaodaq']]],
+  ['signal_2ehpp_7',['Signal.hpp',['../_signal_8hpp.html',1,'']]],
+  ['sink_5fptr_8',['sink_ptr',['../namespacespdlog.html#ad79d7054b983c9672432ef0fc9fa6636',1,'spdlog']]],
+  ['spdlog_9',['spdlog',['../namespacespdlog.html',1,'']]],
+  ['start_10',['start',['../classyaodaq_1_1_websocket_client.html#ab780f81eee334e7fe77e010566768677',1,'yaodaq::WebsocketClient::start()'],['../classyaodaq_1_1_websocket_server.html#a5936c92dcfca0a6a103a4f9858eef3d0',1,'yaodaq::WebsocketServer::start()']]],
+  ['statuscode_11',['StatusCode',['../namespaceyaodaq.html#a37ca76974958401ed851ffee15f19907',1,'yaodaq']]],
+  ['statuscode_2ehpp_12',['StatusCode.hpp',['../_status_code_8hpp.html',1,'']]],
+  ['stop_13',['stop',['../classyaodaq_1_1_websocket_client.html#a7738e5c37559163200ee42cced41c56d',1,'yaodaq::WebsocketClient::stop()'],['../classyaodaq_1_1_websocket_server.html#ab6820e51e9152025b59716a1ad5596ea',1,'yaodaq::WebsocketServer::stop()']]],
+  ['success_14',['SUCCESS',['../namespaceyaodaq.html#a37ca76974958401ed851ffee15f19907ad0749aaba8b833466dfcbb0428e4f89c',1,'yaodaq']]],
+  ['supressinstance_15',['supressInstance',['../classyaodaq_1_1_looper.html#ae92ce196b7076471c9576b1ee6cf4404',1,'yaodaq::Looper']]]
 ];

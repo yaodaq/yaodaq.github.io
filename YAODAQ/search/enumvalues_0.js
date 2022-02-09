@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['browser_0',['Browser',['../namespaceyaodaq.html#aaffeeac7c76409166db65a952cd10a73aef15fd2f45e6bb5ce57587895ba64f93',1,'yaodaq']]]
+  ['abrt_0',['ABRT',['../namespaceyaodaq.html#a285eddb8738ce96504d224dcc1dcded2a0ea5595b7ba674b330ad853c7b93d74a',1,'yaodaq']]]
 ];

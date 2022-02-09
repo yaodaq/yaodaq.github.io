@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['off_0',['Off',['../classyaodaq_1_1_logger_handler.html#a9ff4a0c06d54857bf9b36147e2d56001ad15305d7a4e34e02489c74a5ef542f36',1,'yaodaq::LoggerHandler']]]
+  ['module_0',['Module',['../namespaceyaodaq.html#aaffeeac7c76409166db65a952cd10a73ae55f75a29310d7b60f7ac1d390c8ae42',1,'yaodaq']]]
 ];
