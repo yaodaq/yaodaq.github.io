@@ -25,13 +25,7 @@
 var NAVTREE =
 [
   [ "YAODAQ", "index.html", [
-    [ "License", "license.html", null ],
-    [ "third_party_licenses", "md_docs_third_party_licenses.html", [
-      [ "LICENSE ISSUES", "md_docs_third_party_licenses.html#autotoc_md4", [
-        [ "OpenSSL License", "md_docs_third_party_licenses.html#autotoc_md5", null ],
-        [ "Original SSLeay License", "md_docs_third_party_licenses.html#autotoc_md6", null ]
-      ] ]
-    ] ],
+    [ "License", "de/d7e/license.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -40,11 +34,11 @@ var NAVTREE =
         [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
     ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
+    [ "Data Structures", "annotated.html", [
+      [ "Data Structures", "annotated.html", "annotated_dup" ],
+      [ "Data Structure Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
+      [ "Data Fields", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Enumerations", "functions_enum.html", null ]
@@ -58,7 +52,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_class_8hpp.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

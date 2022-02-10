@@ -31,11 +31,11 @@ var menudata={children:[
 {text:"All",url:"namespacemembers.html"},
 {text:"Typedefs",url:"namespacemembers_type.html"},
 {text:"Enumerations",url:"namespacemembers_enum.html"}]}]},
-{text:"Classes",url:"annotated.html",children:[
-{text:"Class List",url:"annotated.html"},
-{text:"Class Index",url:"classes.html"},
+{text:"Data Structures",url:"annotated.html",children:[
+{text:"Data Structures",url:"annotated.html"},
+{text:"Data Structure Index",url:"classes.html"},
 {text:"Class Hierarchy",url:"hierarchy.html"},
-{text:"Class Members",url:"functions.html",children:[
+{text:"Data Fields",url:"functions.html",children:[
 {text:"All",url:"functions.html",children:[
 {text:"a",url:"functions.html#index_a"},
 {text:"c",url:"functions.html#index_c"},

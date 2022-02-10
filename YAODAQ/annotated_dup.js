@@ -1,13 +1,13 @@
 var annotated_dup =
 [
-    [ "yaodaq", "namespaceyaodaq.html", [
-      [ "Exception", "classyaodaq_1_1_exception.html", "classyaodaq_1_1_exception" ],
-      [ "Identifier", "classyaodaq_1_1_identifier.html", "classyaodaq_1_1_identifier" ],
-      [ "Interrupt", "classyaodaq_1_1_interrupt.html", "classyaodaq_1_1_interrupt" ],
-      [ "LoggerHandler", "classyaodaq_1_1_logger_handler.html", "classyaodaq_1_1_logger_handler" ],
-      [ "Looper", "classyaodaq_1_1_looper.html", "classyaodaq_1_1_looper" ],
-      [ "Version", "classyaodaq_1_1_version.html", "classyaodaq_1_1_version" ],
-      [ "WebsocketClient", "classyaodaq_1_1_websocket_client.html", "classyaodaq_1_1_websocket_client" ],
-      [ "WebsocketServer", "classyaodaq_1_1_websocket_server.html", "classyaodaq_1_1_websocket_server" ]
+    [ "yaodaq", "d5/da9/namespaceyaodaq.html", [
+      [ "Exception", "d9/d69/classyaodaq_1_1_exception.html", "d9/d69/classyaodaq_1_1_exception" ],
+      [ "Identifier", "d4/d36/classyaodaq_1_1_identifier.html", "d4/d36/classyaodaq_1_1_identifier" ],
+      [ "Interrupt", "d9/df6/classyaodaq_1_1_interrupt.html", "d9/df6/classyaodaq_1_1_interrupt" ],
+      [ "LoggerHandler", "d0/d3c/classyaodaq_1_1_logger_handler.html", "d0/d3c/classyaodaq_1_1_logger_handler" ],
+      [ "Looper", "d7/dd7/classyaodaq_1_1_looper.html", "d7/dd7/classyaodaq_1_1_looper" ],
+      [ "Version", "da/d4c/classyaodaq_1_1_version.html", "da/d4c/classyaodaq_1_1_version" ],
+      [ "WebsocketClient", "d2/d57/classyaodaq_1_1_websocket_client.html", "d2/d57/classyaodaq_1_1_websocket_client" ],
+      [ "WebsocketServer", "da/d87/classyaodaq_1_1_websocket_server.html", "da/d87/classyaodaq_1_1_websocket_server" ]
     ] ]
 ];

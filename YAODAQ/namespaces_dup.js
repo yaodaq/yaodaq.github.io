@@ -1,7 +1,7 @@
 var namespaces_dup =
 [
-    [ "spdlog", "namespacespdlog.html", [
-      [ "sink_ptr", "namespacespdlog.html#ad79d7054b983c9672432ef0fc9fa6636", null ]
+    [ "spdlog", "dc/dec/namespacespdlog.html", [
+      [ "sink_ptr", "dc/dec/namespacespdlog_ad79d7054b983c9672432ef0fc9fa6636.html#ad79d7054b983c9672432ef0fc9fa6636", null ]
     ] ],
-    [ "yaodaq", "namespaceyaodaq.html", "namespaceyaodaq" ]
+    [ "yaodaq", "d5/da9/namespaceyaodaq.html", "d5/da9/namespaceyaodaq" ]
 ];
