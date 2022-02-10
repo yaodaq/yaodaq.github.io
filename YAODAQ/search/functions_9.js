@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['websocketclient_0',['WebsocketClient',['../classyaodaq_1_1_websocket_client.html#a1b63b22a9b294adddae4a46e94a118ad',1,'yaodaq::WebsocketClient']]],
-  ['websocketserver_1',['WebsocketServer',['../classyaodaq_1_1_websocket_server.html#a5f3a0faaf5c178ba7d61b6cbf461b4e0',1,'yaodaq::WebsocketServer']]],
-  ['what_2',['what',['../classyaodaq_1_1_exception.html#a50143a6d1fcc6e67b7855713f3be92c2',1,'yaodaq::Exception']]]
+  ['version_0',['Version',['../classyaodaq_1_1_version.html#adac60a4915549dbb12662f209035308e',1,'yaodaq::Version::Version(const std::uint8_t &amp;mj, const std::uint8_t &amp;mn, const std::uint8_t &amp;pt, const semver::prerelease &amp;prt=semver::prerelease::none, const std::uint8_t &amp;prn=0) noexcept'],['../classyaodaq_1_1_version.html#a17eea5d186c1ba01ab28e575acaac25a',1,'yaodaq::Version::Version(const std::string_view &amp;str)'],['../classyaodaq_1_1_version.html#aa8cdba836beff4130bec8c3d7ed950d7',1,'yaodaq::Version::Version()=default']]]
 ];

@@ -17,6 +17,9 @@ var dir_d9b96126818309704609868b3e539357 =
     [ "Severity.hpp", "_severity_8hpp.html", "_severity_8hpp" ],
     [ "Signal.hpp", "_signal_8hpp.html", "_signal_8hpp" ],
     [ "StatusCode.hpp", "_status_code_8hpp.html", "_status_code_8hpp" ],
+    [ "Version.hpp", "_version_8hpp.html", [
+      [ "yaodaq::Version", "classyaodaq_1_1_version.html", "classyaodaq_1_1_version" ]
+    ] ],
     [ "WebsocketClient.hpp", "_websocket_client_8hpp.html", [
       [ "yaodaq::WebsocketClient", "classyaodaq_1_1_websocket_client.html", "classyaodaq_1_1_websocket_client" ]
     ] ],

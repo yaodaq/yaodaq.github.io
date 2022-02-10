@@ -59,6 +59,7 @@ var menudata={children:[
 {text:"l",url:"functions_func.html#index_l"},
 {text:"r",url:"functions_func.html#index_r"},
 {text:"s",url:"functions_func.html#index_s"},
+{text:"v",url:"functions_func.html#index_v"},
 {text:"w",url:"functions_func.html#index_w"},
 {text:"~",url:"functions_func.html#index__7E"}]},
 {text:"Enumerations",url:"functions_enum.html"}]}]},

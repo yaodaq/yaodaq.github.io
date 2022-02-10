@@ -10,6 +10,9 @@ var hierarchy =
     [ "source_location", null, [
       [ "yaodaq::Exception", "classyaodaq_1_1_exception.html", null ]
     ] ],
+    [ "semver::version", null, [
+      [ "yaodaq::Version", "classyaodaq_1_1_version.html", null ]
+    ] ],
     [ "ix::WebSocket", null, [
       [ "yaodaq::WebsocketClient", "classyaodaq_1_1_websocket_client.html", null ]
     ] ],
