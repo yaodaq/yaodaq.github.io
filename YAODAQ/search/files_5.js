@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['version_2ecpp_0',['Version.cpp',['../d4/d43/_version_8cpp.html',1,'']]],
-  ['version_2ehpp_1',['Version.hpp',['../d7/d67/_version_8hpp.html',1,'']]]
+  ['third_2dparty_20licenses_2emd_0',['Third-party licenses.md',['../de/d97/_third-party_01licenses_8md.html',1,'']]]
 ];

@@ -26,6 +26,12 @@ var NAVTREE =
 [
   [ "YAODAQ", "index.html", [
     [ "License", "de/d7e/license.html", null ],
+    [ "Third-party licenses", "d2/d97/md_docs__third_party_licenses.html", [
+      [ "LICENSE ISSUES", "d2/d97/md_docs__third_party_licenses.html#autotoc_md4", [
+        [ "OpenSSL License", "d2/d97/md_docs__third_party_licenses.html#autotoc_md5", null ],
+        [ "Original SSLeay License", "d2/d97/md_docs__third_party_licenses.html#autotoc_md6", null ]
+      ] ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
