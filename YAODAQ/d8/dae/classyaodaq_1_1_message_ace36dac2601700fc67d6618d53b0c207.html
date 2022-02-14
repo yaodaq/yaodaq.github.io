@@ -110,8 +110,8 @@ $(document).ready(function(){initNavTree('d8/dae/classyaodaq_1_1_message_ace36da
 
 <p class="definition">Definition at line <a class="el" href="../../d4/dab/_message_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d4/dab/_message_8cpp_source.html">Message.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
-<div class="line"><span class="lineno">   49</span>  m_JSON[<span class="stringliteral">&quot;content&quot;</span>] = nlohmann::json::parse( content, <span class="keyword">nullptr</span>, <span class="keyword">false</span> );</div>
-<div class="line"><span class="lineno">   50</span>  <span class="keywordflow">if</span>( m_JSON[<span class="stringliteral">&quot;content&quot;</span>].is_discarded() ) { m_JSON[<span class="stringliteral">&quot;content&quot;</span>] = <span class="keyword">static_cast&lt;</span>std::string<span class="keyword">&gt;</span>( content ); }</div>
+<div class="line"><span class="lineno">   49</span>  <span class="comment">/*m_JSON[&quot;content&quot;] = nlohmann::json::parse( content, nullptr, false );</span></div>
+<div class="line"><span class="lineno">   50</span><span class="comment">  if( m_JSON[&quot;content&quot;].is_discarded() ) { m_JSON[&quot;content&quot;] = static_cast&lt;std::string&gt;( content ); }*/</span></div>
 <div class="line"><span class="lineno">   51</span>}</div>
 </div><!-- fragment -->
 </div>
