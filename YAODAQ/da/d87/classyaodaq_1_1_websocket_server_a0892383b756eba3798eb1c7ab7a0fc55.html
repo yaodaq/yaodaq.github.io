@@ -99,21 +99,21 @@ $(document).ready(function(){initNavTree('da/d87/classyaodaq_1_1_websocket_serve
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d57/_websocket_server_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../db/d57/_websocket_server_8cpp_source.html">WebsocketServer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   64</span>{</div>
-<div class="line"><span class="lineno">   65</span>  <span class="keywordflow">if</span>( !m_isListening )</div>
-<div class="line"><span class="lineno">   66</span>  {</div>
-<div class="line"><span class="lineno">   67</span>    std::pair&lt;bool, std::string&gt; ret = ix::WebSocketServer::listen();</div>
-<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">if</span>( ret.first )</div>
-<div class="line"><span class="lineno">   69</span>    {</div>
-<div class="line"><span class="lineno">   70</span>      m_isListening = ret.first;</div>
-<div class="line"><span class="lineno">   71</span>      <a class="code hl_function" href="../../da/d87/classyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958.html#ada5bea7bf913d34bf1cb3cdfee670958">logger</a>()-&gt;info( <span class="stringliteral">&quot;Server listening on host {0} port {1}&quot;</span>, getHost(), getPort() );</div>
-<div class="line"><span class="lineno">   72</span>    }</div>
-<div class="line"><span class="lineno">   73</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   74</span>      <span class="keywordflow">throw</span> Exception( <a class="code hl_enumvalue" href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907a7946beb39a6dacba74fb33d8464904d6">StatusCode::LISTEN_ERROR</a>, ret.second );</div>
-<div class="line"><span class="lineno">   75</span>  }</div>
-<div class="line"><span class="lineno">   76</span>}</div>
-<div class="ttc" id="aclassyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958_html_ada5bea7bf913d34bf1cb3cdfee670958"><div class="ttname"><a href="../../da/d87/classyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958.html#ada5bea7bf913d34bf1cb3cdfee670958">yaodaq::WebsocketServer::logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; logger()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d04/_websocket_server_8hpp_source.html#l00036">WebsocketServer.hpp:36</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d57/_websocket_server_8cpp_source.html#l00160">160</a> of file <a class="el" href="../../db/d57/_websocket_server_8cpp_source.html">WebsocketServer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  161</span>{</div>
+<div class="line"><span class="lineno">  162</span>  <span class="keywordflow">if</span>( !m_isListening )</div>
+<div class="line"><span class="lineno">  163</span>  {</div>
+<div class="line"><span class="lineno">  164</span>    std::pair&lt;bool, std::string&gt; ret = ix::WebSocketServer::listen();</div>
+<div class="line"><span class="lineno">  165</span>    <span class="keywordflow">if</span>( ret.first )</div>
+<div class="line"><span class="lineno">  166</span>    {</div>
+<div class="line"><span class="lineno">  167</span>      m_isListening = ret.first;</div>
+<div class="line"><span class="lineno">  168</span>      <a class="code hl_function" href="../../da/d87/classyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958.html#ada5bea7bf913d34bf1cb3cdfee670958">logger</a>()-&gt;info( <span class="stringliteral">&quot;Server listening on {0}:{1}&quot;</span>, getHost(), getPort() );</div>
+<div class="line"><span class="lineno">  169</span>    }</div>
+<div class="line"><span class="lineno">  170</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  171</span>      <span class="keywordflow">throw</span> Exception( <a class="code hl_enumvalue" href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907a7946beb39a6dacba74fb33d8464904d6">StatusCode::LISTEN_ERROR</a>, ret.second );</div>
+<div class="line"><span class="lineno">  172</span>  }</div>
+<div class="line"><span class="lineno">  173</span>}</div>
+<div class="ttc" id="aclassyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958_html_ada5bea7bf913d34bf1cb3cdfee670958"><div class="ttname"><a href="../../da/d87/classyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958.html#ada5bea7bf913d34bf1cb3cdfee670958">yaodaq::WebsocketServer::logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; logger()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d04/_websocket_server_8hpp_source.html#l00053">WebsocketServer.hpp:53</a></div></div>
 <div class="ttc" id="anamespaceyaodaq_a37ca76974958401ed851ffee15f19907_html_a37ca76974958401ed851ffee15f19907a7946beb39a6dacba74fb33d8464904d6"><div class="ttname"><a href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907a7946beb39a6dacba74fb33d8464904d6">yaodaq::StatusCode::LISTEN_ERROR</a></div><div class="ttdeci">@ LISTEN_ERROR</div></div>
 </div><!-- fragment -->
 </div>
