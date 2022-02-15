@@ -19,7 +19,8 @@ var hierarchy =
         [ "yaodaq::Open", "d0/dd0/classyaodaq_1_1_open.html", null ],
         [ "yaodaq::Ping", "db/da4/classyaodaq_1_1_ping.html", null ],
         [ "yaodaq::Pong", "db/d9e/classyaodaq_1_1_pong.html", null ]
-      ] ]
+      ] ],
+      [ "yaodaq::MessageException", "d4/d93/classyaodaq_1_1_message_exception.html", null ]
     ] ],
     [ "source_location", null, [
       [ "yaodaq::Exception", "d9/d69/classyaodaq_1_1_exception.html", null ]

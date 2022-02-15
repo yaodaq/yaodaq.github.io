@@ -14,5 +14,6 @@ var classyaodaq_1_1_pong =
     [ "setContent", "db/d9e/classyaodaq_1_1_pong.html#ace36dac2601700fc67d6618d53b0c207", null ],
     [ "setContent", "db/d9e/classyaodaq_1_1_pong.html#acd4ff9ff5008cd06877a31b7e1bf0cfb", null ],
     [ "setContent", "db/d9e/classyaodaq_1_1_pong.html#a864fe8ab1b170e05e4035392dc37dd00", null ],
-    [ "setFrom", "db/d9e/classyaodaq_1_1_pong.html#ae9d65bc348b36a81068627a6ab3f9262", null ]
+    [ "setFrom", "db/d9e/classyaodaq_1_1_pong.html#ae9d65bc348b36a81068627a6ab3f9262", null ],
+    [ "m_JSON", "db/d9e/classyaodaq_1_1_pong.html#ac6c4b001e9eb56b0656fc98533a6c1dd", null ]
 ];

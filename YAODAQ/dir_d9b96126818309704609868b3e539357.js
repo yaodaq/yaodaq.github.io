@@ -30,7 +30,8 @@ var dir_d9b96126818309704609868b3e539357 =
       [ "yaodaq::Looper", "d7/dd7/classyaodaq_1_1_looper.html", "d7/dd7/classyaodaq_1_1_looper" ]
     ] ],
     [ "Message.hpp", "dc/dbc/_message_8hpp.html", [
-      [ "yaodaq::Message", "d8/dae/classyaodaq_1_1_message.html", "d8/dae/classyaodaq_1_1_message" ]
+      [ "yaodaq::Message", "d8/dae/classyaodaq_1_1_message.html", "d8/dae/classyaodaq_1_1_message" ],
+      [ "yaodaq::MessageException", "d4/d93/classyaodaq_1_1_message_exception.html", "d4/d93/classyaodaq_1_1_message_exception" ]
     ] ],
     [ "MessageType.hpp", "d9/da5/_message_type_8hpp.html", "d9/da5/_message_type_8hpp" ],
     [ "Severity.hpp", "d2/d4d/_severity_8hpp.html", "d2/d4d/_severity_8hpp" ],

@@ -13,6 +13,7 @@ var annotated_dup =
       [ "LoggerHandler", "d0/d3c/classyaodaq_1_1_logger_handler.html", "d0/d3c/classyaodaq_1_1_logger_handler" ],
       [ "Looper", "d7/dd7/classyaodaq_1_1_looper.html", "d7/dd7/classyaodaq_1_1_looper" ],
       [ "Message", "d8/dae/classyaodaq_1_1_message.html", "d8/dae/classyaodaq_1_1_message" ],
+      [ "MessageException", "d4/d93/classyaodaq_1_1_message_exception.html", "d4/d93/classyaodaq_1_1_message_exception" ],
       [ "Open", "d0/dd0/classyaodaq_1_1_open.html", "d0/dd0/classyaodaq_1_1_open" ],
       [ "Ping", "db/da4/classyaodaq_1_1_ping.html", "db/da4/classyaodaq_1_1_ping" ],
       [ "Pong", "db/d9e/classyaodaq_1_1_pong.html", "db/d9e/classyaodaq_1_1_pong" ],

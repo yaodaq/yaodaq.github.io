@@ -12,6 +12,7 @@ var namespaceyaodaq =
     [ "LoggerHandler", "d0/d3c/classyaodaq_1_1_logger_handler.html", "d0/d3c/classyaodaq_1_1_logger_handler" ],
     [ "Looper", "d7/dd7/classyaodaq_1_1_looper.html", "d7/dd7/classyaodaq_1_1_looper" ],
     [ "Message", "d8/dae/classyaodaq_1_1_message.html", "d8/dae/classyaodaq_1_1_message" ],
+    [ "MessageException", "d4/d93/classyaodaq_1_1_message_exception.html", "d4/d93/classyaodaq_1_1_message_exception" ],
     [ "Open", "d0/dd0/classyaodaq_1_1_open.html", "d0/dd0/classyaodaq_1_1_open" ],
     [ "Ping", "db/da4/classyaodaq_1_1_ping.html", "db/da4/classyaodaq_1_1_ping" ],
     [ "Pong", "db/d9e/classyaodaq_1_1_pong.html", "db/d9e/classyaodaq_1_1_pong" ],
@@ -49,7 +50,8 @@ var namespaceyaodaq =
       [ "Ping", "d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ab85815d04cec053ce6deb8021f2df1b8", null ],
       [ "Pong", "d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3a4d94412495a32342e1b8c78f7960f2bc", null ],
       [ "Fragment", "d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3a37d01b98065725fe3a1d30acf3a0064a", null ],
-      [ "Unknown", "d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3a88183b946cc5f0e8c96b2e66e1c74a7e", null ]
+      [ "Unknown", "d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "Exception", "d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ab0d4998a26f5b5742ad38c4af8817e32", null ]
     ] ],
     [ "Severity", "d5/da9/namespaceyaodaq_ace8282a2f4797b7cc8f203e9b7acc14a.html#ace8282a2f4797b7cc8f203e9b7acc14a", [
       [ "Info", "d5/da9/namespaceyaodaq_ace8282a2f4797b7cc8f203e9b7acc14a.html#ace8282a2f4797b7cc8f203e9b7acc14aa4059b0251f66a18cb56f544728796875", null ],

@@ -10,7 +10,7 @@ var searchData=
   ['interrupt_7',['Interrupt',['../d9/df6/classyaodaq_1_1_interrupt_ac0d5222d408b41baec5fac419ba22635.html#ac0d5222d408b41baec5fac419ba22635',1,'yaodaq::Interrupt::Interrupt()'],['../d9/df6/classyaodaq_1_1_interrupt.html',1,'yaodaq::Interrupt']]],
   ['interrupt_2ecpp_8',['Interrupt.cpp',['../de/db8/_interrupt_8cpp.html',1,'']]],
   ['interrupt_2ehpp_9',['Interrupt.hpp',['../d3/da2/_interrupt_8hpp.html',1,'']]],
-  ['ixmessage_10',['IXMessage',['../d0/df8/classyaodaq_1_1_i_x_message_a422357d5f9d7e23453423673f3e2d914.html#a422357d5f9d7e23453423673f3e2d914',1,'yaodaq::IXMessage::IXMessage()'],['../d0/df8/classyaodaq_1_1_i_x_message.html',1,'yaodaq::IXMessage']]],
+  ['ixmessage_10',['IXMessage',['../d0/df8/classyaodaq_1_1_i_x_message_a422357d5f9d7e23453423673f3e2d914.html#a422357d5f9d7e23453423673f3e2d914',1,'yaodaq::IXMessage::IXMessage(const MessageType &amp;messageType)'],['../d0/df8/classyaodaq_1_1_i_x_message_ab97fa16fc860f2889fcc6887330533bb.html#ab97fa16fc860f2889fcc6887330533bb',1,'yaodaq::IXMessage::IXMessage(const ix::WebSocketMessagePtr &amp;msg)'],['../d0/df8/classyaodaq_1_1_i_x_message.html',1,'yaodaq::IXMessage']]],
   ['ixwebsocketmessage_2ecpp_11',['IXWebsocketMessage.cpp',['../db/de3/_i_x_websocket_message_8cpp.html',1,'']]],
   ['ixwebsocketmessage_2ehpp_12',['IXWebsocketMessage.hpp',['../dc/d2f/_i_x_websocket_message_8hpp.html',1,'']]]
 ];

@@ -108,17 +108,17 @@ $(document).ready(function(){initNavTree('d8/d60/classyaodaq_1_1_close_a0b44980a
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/de3/_i_x_websocket_message_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../db/de3/_i_x_websocket_message_8cpp_source.html">IXWebsocketMessage.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   44</span>                                                    : <a class="code hl_function" href="../../d0/df8/classyaodaq_1_1_i_x_message_a422357d5f9d7e23453423673f3e2d914.html#a422357d5f9d7e23453423673f3e2d914">IXMessage</a>( <a class="code hl_enumvalue" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ad3d2e617335f08df83599665eef8a418">MessageType::Close</a> )</div>
-<div class="line"><span class="lineno">   45</span>{</div>
-<div class="line"><span class="lineno">   46</span>  nlohmann::json j;</div>
-<div class="line"><span class="lineno">   47</span>  j[<span class="stringliteral">&quot;code&quot;</span>]   = closeInfo.code;</div>
-<div class="line"><span class="lineno">   48</span>  j[<span class="stringliteral">&quot;reason&quot;</span>] = closeInfo.reason;</div>
-<div class="line"><span class="lineno">   49</span>  j[<span class="stringliteral">&quot;remote&quot;</span>] = closeInfo.remote;</div>
-<div class="line"><span class="lineno">   50</span>  <a class="code hl_function" href="../../d8/dae/classyaodaq_1_1_message_acd4ff9ff5008cd06877a31b7e1bf0cfb.html#acd4ff9ff5008cd06877a31b7e1bf0cfb">setContent</a>( j );</div>
-<div class="line"><span class="lineno">   51</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/de3/_i_x_websocket_message_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../db/de3/_i_x_websocket_message_8cpp_source.html">IXWebsocketMessage.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   54</span>                                                    : <a class="code hl_function" href="../../d0/df8/classyaodaq_1_1_i_x_message_a422357d5f9d7e23453423673f3e2d914.html#a422357d5f9d7e23453423673f3e2d914">IXMessage</a>( <a class="code hl_enumvalue" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ad3d2e617335f08df83599665eef8a418">MessageType::Close</a> )</div>
+<div class="line"><span class="lineno">   55</span>{</div>
+<div class="line"><span class="lineno">   56</span>  nlohmann::json j;</div>
+<div class="line"><span class="lineno">   57</span>  j[<span class="stringliteral">&quot;code&quot;</span>]   = closeInfo.code;</div>
+<div class="line"><span class="lineno">   58</span>  j[<span class="stringliteral">&quot;reason&quot;</span>] = closeInfo.reason;</div>
+<div class="line"><span class="lineno">   59</span>  j[<span class="stringliteral">&quot;remote&quot;</span>] = closeInfo.remote;</div>
+<div class="line"><span class="lineno">   60</span>  <a class="code hl_function" href="../../d8/dae/classyaodaq_1_1_message_acd4ff9ff5008cd06877a31b7e1bf0cfb.html#acd4ff9ff5008cd06877a31b7e1bf0cfb">setContent</a>( j );</div>
+<div class="line"><span class="lineno">   61</span>}</div>
 <div class="ttc" id="aclassyaodaq_1_1_i_x_message_a422357d5f9d7e23453423673f3e2d914_html_a422357d5f9d7e23453423673f3e2d914"><div class="ttname"><a href="../../d0/df8/classyaodaq_1_1_i_x_message_a422357d5f9d7e23453423673f3e2d914.html#a422357d5f9d7e23453423673f3e2d914">yaodaq::IXMessage::IXMessage</a></div><div class="ttdeci">IXMessage(const MessageType &amp;messageType)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de3/_i_x_websocket_message_8cpp_source.html#l00010">IXWebsocketMessage.cpp:10</a></div></div>
-<div class="ttc" id="aclassyaodaq_1_1_message_acd4ff9ff5008cd06877a31b7e1bf0cfb_html_acd4ff9ff5008cd06877a31b7e1bf0cfb"><div class="ttname"><a href="../../d8/dae/classyaodaq_1_1_message_acd4ff9ff5008cd06877a31b7e1bf0cfb.html#acd4ff9ff5008cd06877a31b7e1bf0cfb">yaodaq::Message::setContent</a></div><div class="ttdeci">void setContent(const nlohmann::json &amp;content)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dab/_message_8cpp_source.html#l00039">Message.cpp:39</a></div></div>
+<div class="ttc" id="aclassyaodaq_1_1_message_acd4ff9ff5008cd06877a31b7e1bf0cfb_html_acd4ff9ff5008cd06877a31b7e1bf0cfb"><div class="ttname"><a href="../../d8/dae/classyaodaq_1_1_message_acd4ff9ff5008cd06877a31b7e1bf0cfb.html#acd4ff9ff5008cd06877a31b7e1bf0cfb">yaodaq::Message::setContent</a></div><div class="ttdeci">void setContent(const nlohmann::json &amp;content)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dab/_message_8cpp_source.html#l00040">Message.cpp:40</a></div></div>
 <div class="ttc" id="anamespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3_html_a26cd04cc5ef719b0e8b0b730689ddeb3ad3d2e617335f08df83599665eef8a418"><div class="ttname"><a href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ad3d2e617335f08df83599665eef8a418">yaodaq::MessageType::Close</a></div><div class="ttdeci">@ Close</div></div>
 </div><!-- fragment -->
 </div>

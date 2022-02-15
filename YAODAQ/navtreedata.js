@@ -48,6 +48,7 @@ var NAVTREE =
       [ "Data Fields", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ]
       ] ]
     ] ],
@@ -60,8 +61,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d5/da9/namespaceyaodaq_a87fea990498aac57e480d5dc3aabd97e.html#a87fea990498aac57e480d5dc3aabd97ea88183b946cc5f0e8c96b2e66e1c74a7e",
-"db/d9e/classyaodaq_1_1_pong.html#adf0723f2ec54d182a0a21b9d76982b55"
+"d4/d93/classyaodaq_1_1_message_exception.html#ae9d65bc348b36a81068627a6ab3f9262",
+"da/d87/classyaodaq_1_1_websocket_server_a3a21c0bc89d7c515acce91f7092df25a.html#a3a21c0bc89d7c515acce91f7092df25a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
