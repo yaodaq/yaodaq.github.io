@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['websocketclient_0',['WebsocketClient',['../d2/d57/classyaodaq_1_1_websocket_client_a4c51aefc96138e7c640629ea33340eb0.html#a4c51aefc96138e7c640629ea33340eb0',1,'yaodaq::WebsocketClient']]],
-  ['websocketserver_1',['WebsocketServer',['../da/d87/classyaodaq_1_1_websocket_server_a078a2d98973897f837129860421f0475.html#a078a2d98973897f837129860421f0475',1,'yaodaq::WebsocketServer']]],
-  ['what_2',['what',['../d9/d69/classyaodaq_1_1_exception_a50143a6d1fcc6e67b7855713f3be92c2.html#a50143a6d1fcc6e67b7855713f3be92c2',1,'yaodaq::Exception']]]
+  ['version_0',['Version',['../da/d4c/classyaodaq_1_1_version_adac60a4915549dbb12662f209035308e.html#adac60a4915549dbb12662f209035308e',1,'yaodaq::Version::Version(const std::uint8_t &amp;mj, const std::uint8_t &amp;mn, const std::uint8_t &amp;pt, const semver::prerelease &amp;prt=semver::prerelease::none, const std::uint8_t &amp;prn=0) noexcept'],['../da/d4c/classyaodaq_1_1_version_a17eea5d186c1ba01ab28e575acaac25a.html#a17eea5d186c1ba01ab28e575acaac25a',1,'yaodaq::Version::Version(const std::string_view &amp;str)'],['../da/d4c/classyaodaq_1_1_version_aa8cdba836beff4130bec8c3d7ed950d7.html#aa8cdba836beff4130bec8c3d7ed950d7',1,'yaodaq::Version::Version()=default']]]
 ];

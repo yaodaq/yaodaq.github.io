@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['_7econnectionstate_0',['~ConnectionState',['../d0/d09/classyaodaq_1_1_connection_state_a0314fc4dab504e437b6de9e0266c14e2.html#a0314fc4dab504e437b6de9e0266c14e2',1,'yaodaq::ConnectionState']]],
-  ['_7eexception_1',['~Exception',['../d9/d69/classyaodaq_1_1_exception_a1d5bd29a962295e99d68ab8b5864093d.html#a1d5bd29a962295e99d68ab8b5864093d',1,'yaodaq::Exception']]],
-  ['_7einterrupt_2',['~Interrupt',['../d9/df6/classyaodaq_1_1_interrupt_a77d57b9ba5020a1ab2a234ce591ff9c9.html#a77d57b9ba5020a1ab2a234ce591ff9c9',1,'yaodaq::Interrupt']]],
-  ['_7eloggerhandler_3',['~LoggerHandler',['../d0/d3c/classyaodaq_1_1_logger_handler_a983c5984bbbf0ce46e3c5baa1e4e5fb6.html#a983c5984bbbf0ce46e3c5baa1e4e5fb6',1,'yaodaq::LoggerHandler']]],
-  ['_7elooper_4',['~Looper',['../d7/dd7/classyaodaq_1_1_looper_a99455c2965a6c6162ef78c617ad9a2ae.html#a99455c2965a6c6162ef78c617ad9a2ae',1,'yaodaq::Looper']]],
-  ['_7ewebsocketclient_5',['~WebsocketClient',['../d2/d57/classyaodaq_1_1_websocket_client_a66c32549466f3af5253a6e1d96981ae4.html#a66c32549466f3af5253a6e1d96981ae4',1,'yaodaq::WebsocketClient']]],
-  ['_7ewebsocketserver_6',['~WebsocketServer',['../da/d87/classyaodaq_1_1_websocket_server_ad95a8533a8c07dc7d01c461612514810.html#ad95a8533a8c07dc7d01c461612514810',1,'yaodaq::WebsocketServer']]]
+  ['websocketclient_0',['WebsocketClient',['../d2/d57/classyaodaq_1_1_websocket_client_a4c51aefc96138e7c640629ea33340eb0.html#a4c51aefc96138e7c640629ea33340eb0',1,'yaodaq::WebsocketClient']]],
+  ['websocketserver_1',['WebsocketServer',['../da/d87/classyaodaq_1_1_websocket_server_a078a2d98973897f837129860421f0475.html#a078a2d98973897f837129860421f0475',1,'yaodaq::WebsocketServer']]],
+  ['what_2',['what',['../d9/d69/classyaodaq_1_1_exception_a50143a6d1fcc6e67b7855713f3be92c2.html#a50143a6d1fcc6e67b7855713f3be92c2',1,'yaodaq::Exception']]]
 ];

@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('d0/d09/classyaodaq_1_1_connection_stat
 <div class="line"><span class="lineno">   30</span>    std::list&lt;std::pair&lt;std::string, std::string&gt;&gt;::iterator found = std::find( m_Ids.begin(), m_Ids.end(), m_Pair );</div>
 <div class="line"><span class="lineno">   31</span>    <span class="keywordflow">if</span>( found == m_Ids.end() )</div>
 <div class="line"><span class="lineno">   32</span>    {</div>
-<div class="line"><span class="lineno">   33</span>      _id = <span class="keywordtype">id</span>.getName();</div>
+<div class="line"><span class="lineno">   33</span>      _id = <span class="keywordtype">id</span>.get();</div>
 <div class="line"><span class="lineno">   34</span>      m_Ids.push_back( m_Pair );</div>
 <div class="line"><span class="lineno">   35</span>    }</div>
 <div class="line"><span class="lineno">   36</span>    <span class="keywordflow">else</span></div>

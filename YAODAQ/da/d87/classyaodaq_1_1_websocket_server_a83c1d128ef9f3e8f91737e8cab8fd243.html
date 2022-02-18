@@ -108,8 +108,24 @@ $(document).ready(function(){initNavTree('da/d87/classyaodaq_1_1_websocket_serve
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d57/_websocket_server_8cpp_source.html#l00150">150</a> of file <a class="el" href="../../db/d57/_websocket_server_8cpp_source.html">WebsocketServer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  150</span>{}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d57/_websocket_server_8cpp_source.html#l00159">159</a> of file <a class="el" href="../../db/d57/_websocket_server_8cpp_source.html">WebsocketServer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  160</span>{</div>
+<div class="line"><span class="lineno">  161</span>  <span class="keywordflow">switch</span>( message.getTypeValue() )</div>
+<div class="line"><span class="lineno">  162</span>  {</div>
+<div class="line"><span class="lineno">  163</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ab0d4998a26f5b5742ad38c4af8817e32">MessageType::Exception</a>:</div>
+<div class="line"><span class="lineno">  164</span>    {</div>
+<div class="line"><span class="lineno">  165</span>      MessageException&amp; message_exception = <span class="keyword">reinterpret_cast&lt;</span>MessageException&amp;<span class="keyword">&gt;</span>( message );</div>
+<div class="line"><span class="lineno">  166</span>      <a class="code hl_function" href="../../da/d87/classyaodaq_1_1_websocket_server_a86564c9b3570b99e3342488a3881c97a.html#a86564c9b3570b99e3342488a3881c97a">onException</a>( message_exception );</div>
+<div class="line"><span class="lineno">  167</span>    }</div>
+<div class="line"><span class="lineno">  168</span>    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  169</span>    {</div>
+<div class="line"><span class="lineno">  170</span>      <a class="code hl_function" href="../../da/d87/classyaodaq_1_1_websocket_server_ab2303b133d7fd257f0abd8b6c543c940.html#ab2303b133d7fd257f0abd8b6c543c940">onUnknown</a>( message );</div>
+<div class="line"><span class="lineno">  171</span>    }</div>
+<div class="line"><span class="lineno">  172</span>  }</div>
+<div class="line"><span class="lineno">  173</span>}</div>
+<div class="ttc" id="aclassyaodaq_1_1_websocket_server_a86564c9b3570b99e3342488a3881c97a_html_a86564c9b3570b99e3342488a3881c97a"><div class="ttname"><a href="../../da/d87/classyaodaq_1_1_websocket_server_a86564c9b3570b99e3342488a3881c97a.html#a86564c9b3570b99e3342488a3881c97a">yaodaq::WebsocketServer::onException</a></div><div class="ttdeci">virtual void onException(MessageException &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d57/_websocket_server_8cpp_source.html#l00200">WebsocketServer.cpp:200</a></div></div>
+<div class="ttc" id="aclassyaodaq_1_1_websocket_server_ab2303b133d7fd257f0abd8b6c543c940_html_ab2303b133d7fd257f0abd8b6c543c940"><div class="ttname"><a href="../../da/d87/classyaodaq_1_1_websocket_server_ab2303b133d7fd257f0abd8b6c543c940.html#ab2303b133d7fd257f0abd8b6c543c940">yaodaq::WebsocketServer::onUnknown</a></div><div class="ttdeci">virtual void onUnknown(Message &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d57/_websocket_server_8cpp_source.html#l00202">WebsocketServer.cpp:202</a></div></div>
+<div class="ttc" id="anamespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3_html_a26cd04cc5ef719b0e8b0b730689ddeb3ab0d4998a26f5b5742ad38c4af8817e32"><div class="ttname"><a href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ab0d4998a26f5b5742ad38c4af8817e32">yaodaq::MessageType::Exception</a></div><div class="ttdeci">@ Exception</div></div>
 </div><!-- fragment -->
 </div>
 </div>
