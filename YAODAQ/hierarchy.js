@@ -1,12 +1,19 @@
 var hierarchy =
 [
+    [ "ix::ConnectionState", null, [
+      [ "yaodaq::ConnectionState", "d0/d09/classyaodaq_1_1_connection_state.html", null ]
+    ] ],
     [ "std::exception", null, [
       [ "yaodaq::Exception", "d9/d69/classyaodaq_1_1_exception.html", null ]
     ] ],
     [ "yaodaq::Identifier", "d4/d36/classyaodaq_1_1_identifier.html", null ],
     [ "yaodaq::Interrupt", "d9/df6/classyaodaq_1_1_interrupt.html", null ],
+    [ "yaodaq::Key", "dd/d8c/classyaodaq_1_1_key.html", null ],
     [ "yaodaq::LoggerHandler", "d0/d3c/classyaodaq_1_1_logger_handler.html", null ],
     [ "yaodaq::Looper", "d7/dd7/classyaodaq_1_1_looper.html", null ],
+    [ "yaodaq::Message", "d8/dae/classyaodaq_1_1_message.html", [
+      [ "yaodaq::Open", "d0/dd0/classyaodaq_1_1_open.html", null ]
+    ] ],
     [ "source_location", null, [
       [ "yaodaq::Exception", "d9/d69/classyaodaq_1_1_exception.html", null ]
     ] ],

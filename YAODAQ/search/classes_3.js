@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version_0',['Version',['../da/d4c/classyaodaq_1_1_version.html',1,'yaodaq']]]
+  ['key_0',['Key',['../dd/d8c/classyaodaq_1_1_key.html',1,'yaodaq']]]
 ];

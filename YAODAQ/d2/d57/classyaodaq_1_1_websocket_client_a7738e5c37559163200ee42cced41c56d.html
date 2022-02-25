@@ -99,16 +99,16 @@ $(document).ready(function(){initNavTree('d2/d57/classyaodaq_1_1_websocket_clien
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db8/_websocket_client_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../d2/db8/_websocket_client_8cpp_source.html">WebsocketClient.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
-<div class="line"><span class="lineno">   46</span>  <span class="keywordflow">if</span>( getReadyState() == ix::ReadyState::Open || getReadyState() == ix::ReadyState::Connecting )</div>
-<div class="line"><span class="lineno">   47</span>  {</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_function" href="../../d2/d57/classyaodaq_1_1_websocket_client_aab6870a5b9484e14e82e60658b99f431.html#aab6870a5b9484e14e82e60658b99f431">logger</a>()-&gt;trace( <span class="stringliteral">&quot;Client stopped&quot;</span> );</div>
-<div class="line"><span class="lineno">   49</span>    ix::WebSocket::stop();</div>
-<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">while</span>( getReadyState() != ix::ReadyState::Closed ) { std::this_thread::sleep_for( std::chrono::microseconds( 1 ) ); }</div>
-<div class="line"><span class="lineno">   51</span>  }</div>
-<div class="line"><span class="lineno">   52</span>}</div>
-<div class="ttc" id="aclassyaodaq_1_1_websocket_client_aab6870a5b9484e14e82e60658b99f431_html_aab6870a5b9484e14e82e60658b99f431"><div class="ttname"><a href="../../d2/d57/classyaodaq_1_1_websocket_client_aab6870a5b9484e14e82e60658b99f431.html#aab6870a5b9484e14e82e60658b99f431">yaodaq::WebsocketClient::logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; logger()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d8a/_websocket_client_8hpp_source.html#l00030">WebsocketClient.hpp:30</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d2/db8/_websocket_client_8cpp_source.html#l00073">73</a> of file <a class="el" href="../../d2/db8/_websocket_client_8cpp_source.html">WebsocketClient.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   74</span>{</div>
+<div class="line"><span class="lineno">   75</span>  <span class="keywordflow">if</span>( getReadyState() == ix::ReadyState::Open || getReadyState() == ix::ReadyState::Connecting )</div>
+<div class="line"><span class="lineno">   76</span>  {</div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_function" href="../../d2/d57/classyaodaq_1_1_websocket_client_aab6870a5b9484e14e82e60658b99f431.html#aab6870a5b9484e14e82e60658b99f431">logger</a>()-&gt;trace( <span class="stringliteral">&quot;Client stopped&quot;</span> );</div>
+<div class="line"><span class="lineno">   78</span>    ix::WebSocket::stop();</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">while</span>( getReadyState() != ix::ReadyState::Closed ) { std::this_thread::sleep_for( std::chrono::microseconds( 1 ) ); }</div>
+<div class="line"><span class="lineno">   80</span>  }</div>
+<div class="line"><span class="lineno">   81</span>}</div>
+<div class="ttc" id="aclassyaodaq_1_1_websocket_client_aab6870a5b9484e14e82e60658b99f431_html_aab6870a5b9484e14e82e60658b99f431"><div class="ttname"><a href="../../d2/d57/classyaodaq_1_1_websocket_client_aab6870a5b9484e14e82e60658b99f431.html#aab6870a5b9484e14e82e60658b99f431">yaodaq::WebsocketClient::logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; logger()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d8a/_websocket_client_8hpp_source.html#l00029">WebsocketClient.hpp:29</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

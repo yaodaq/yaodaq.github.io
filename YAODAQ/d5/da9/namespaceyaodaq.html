@@ -86,22 +86,31 @@ $(document).ready(function(){initNavTree('d5/da9/namespaceyaodaq.html','../../')
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">yaodaq Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d09/classyaodaq_1_1_connection_state.html">ConnectionState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d69/classyaodaq_1_1_exception.html">Exception</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d36/classyaodaq_1_1_identifier.html">Identifier</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df6/classyaodaq_1_1_interrupt.html">Interrupt</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8c/classyaodaq_1_1_key.html">Key</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3c/classyaodaq_1_1_logger_handler.html">LoggerHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd7/classyaodaq_1_1_looper.html">Looper</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dae/classyaodaq_1_1_message.html">Message</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classyaodaq_1_1_open.html">Open</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4c/classyaodaq_1_1_version.html">Version</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,16 +121,49 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aaffeeac7c76409166db65a952cd10a73"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/namespaceyaodaq_aaffeeac7c76409166db65a952cd10a73.html#aaffeeac7c76409166db65a952cd10a73">Class</a> : std::int_least16_t { <br />
-&#160;&#160;<a class="el" href="../../d5/da9/namespaceyaodaq_aaffeeac7c76409166db65a952cd10a73.html#aaffeeac7c76409166db65a952cd10a73a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a> = -1
-, <a class="el" href="../../d5/da9/namespaceyaodaq_aaffeeac7c76409166db65a952cd10a73.html#aaffeeac7c76409166db65a952cd10a73ae55f75a29310d7b60f7ac1d390c8ae42">Module</a> = 0
-, <a class="el" href="../../d5/da9/namespaceyaodaq_aaffeeac7c76409166db65a952cd10a73.html#aaffeeac7c76409166db65a952cd10a73aef15fd2f45e6bb5ce57587895ba64f93">Browser</a> = 100
-, <a class="el" href="../../d5/da9/namespaceyaodaq_aaffeeac7c76409166db65a952cd10a73.html#aaffeeac7c76409166db65a952cd10a73a68cc530a3a6b76ec8f6b9c26d0cad679">WebsocketServer</a> = Module + 1
+<tr class="memitem:a605ad7c3434d45d1b04b6e6217b61ae2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/namespaceyaodaq_a605ad7c3434d45d1b04b6e6217b61ae2.html#a605ad7c3434d45d1b04b6e6217b61ae2">Domain</a> : std::uint_least8_t { <a class="el" href="../../d5/da9/namespaceyaodaq_a605ad7c3434d45d1b04b6e6217b61ae2.html#a605ad7c3434d45d1b04b6e6217b61ae2a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a> = 0
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a605ad7c3434d45d1b04b6e6217b61ae2.html#a605ad7c3434d45d1b04b6e6217b61ae2ae498749f3c42246d50b15c81c101d988">Application</a> = 1
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a605ad7c3434d45d1b04b6e6217b61ae2.html#a605ad7c3434d45d1b04b6e6217b61ae2ac6e190b284633c48e39e55049da3cce8">Web</a> = 2
+ }</td></tr>
+<tr class="separator:a605ad7c3434d45d1b04b6e6217b61ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87fea990498aac57e480d5dc3aabd97e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/namespaceyaodaq_a87fea990498aac57e480d5dc3aabd97e.html#a87fea990498aac57e480d5dc3aabd97e">Class</a> : std::uint_least8_t { <br />
+&#160;&#160;<a class="el" href="../../d5/da9/namespaceyaodaq_a87fea990498aac57e480d5dc3aabd97e.html#a87fea990498aac57e480d5dc3aabd97ea88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a> = 0
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a87fea990498aac57e480d5dc3aabd97e.html#a87fea990498aac57e480d5dc3aabd97ea9aa1b03934893d7134a660af4204f2a9">Server</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a87fea990498aac57e480d5dc3aabd97e.html#a87fea990498aac57e480d5dc3aabd97ea577d7068826de925ea2aec01dbadf5e4">Client</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a87fea990498aac57e480d5dc3aabd97e.html#a87fea990498aac57e480d5dc3aabd97eae55f75a29310d7b60f7ac1d390c8ae42">Module</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d5/da9/namespaceyaodaq_aaffeeac7c76409166db65a952cd10a73.html#aaffeeac7c76409166db65a952cd10a73ae892dc0f6143ff4ce00a79b7c642f5a5">WebsocketClient</a> = Module + 2
+&#160;&#160;<a class="el" href="../../d5/da9/namespaceyaodaq_a87fea990498aac57e480d5dc3aabd97e.html#a87fea990498aac57e480d5dc3aabd97ea6036d0a8b885529156168b3b69ee03cc">Board</a>
 <br />
  }</td></tr>
-<tr class="separator:aaffeeac7c76409166db65a952cd10a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a87fea990498aac57e480d5dc3aabd97e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c859f9cf743c4520cb678d7aa62607f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607f">Family</a> : std::uint_least16_t { <br />
+&#160;&#160;<a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fa88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a> = 0
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fa9c9a02b1198a4dca1a6972dc06e164a3">WebSocketServer</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fa7d3df7521f1d9f1bb2e89fbcee47a893">WebSocketClient</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fa959112efd77bcbe18a8c9e70e3274220">Logger</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fa9bbf373797bf7cf7ba62c80023682e25">Controller</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fa39ce191dba5adfb7b8bed6f38adf8cb5">Configurator</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607faf2dfaf9ac46fe2c55e586bbc469fe657">SlowController</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fafb15c53f22336982a182b84aeb2f42eb">Viewer</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607faa90be6086d6e50a74bf84e8efb3967a8">Analyser</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fa82011b55bc66d732263c563550e4811f">FileWriter</a>
+<br />
+ }</td></tr>
+<tr class="separator:a9c859f9cf743c4520cb678d7aa62607f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26cd04cc5ef719b0e8b0b730689ddeb3"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3">MessageType</a> : std::int_least16_t { <br />
+&#160;&#160;<a class="el" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ac3bf447eabe632720a3aa1a7ce401274">Open</a> = -1
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ad3d2e617335f08df83599665eef8a418">Close</a> = -2
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3a094a6f6b0868122a9dd008cb91c083e4">ConnectionError</a> = -3
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3ab85815d04cec053ce6deb8021f2df1b8">Ping</a> = -4
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3a4d94412495a32342e1b8c78f7960f2bc">Pong</a> = -5
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3a37d01b98065725fe3a1d30acf3a0064a">Fragment</a> = -6
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a> = 0
+<br />
+ }</td></tr>
+<tr class="separator:a26cd04cc5ef719b0e8b0b730689ddeb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace8282a2f4797b7cc8f203e9b7acc14a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/namespaceyaodaq_ace8282a2f4797b7cc8f203e9b7acc14a.html#ace8282a2f4797b7cc8f203e9b7acc14a">Severity</a> : std::int_least16_t { <a class="el" href="../../d5/da9/namespaceyaodaq_ace8282a2f4797b7cc8f203e9b7acc14a.html#ace8282a2f4797b7cc8f203e9b7acc14aa4059b0251f66a18cb56f544728796875">Info</a> = 1
 , <a class="el" href="../../d5/da9/namespaceyaodaq_ace8282a2f4797b7cc8f203e9b7acc14a.html#ace8282a2f4797b7cc8f203e9b7acc14aa0eaadb4fcb48a0a0ed7bc9868be9fbaa">Warning</a> = 10
 , <a class="el" href="../../d5/da9/namespaceyaodaq_ace8282a2f4797b7cc8f203e9b7acc14a.html#ace8282a2f4797b7cc8f203e9b7acc14aa902b0d55fddef6f8d651fe1035b7d4bd">Error</a> = 100
@@ -142,8 +184,15 @@ Enumerations</h2></td></tr>
 <tr class="separator:a285eddb8738ce96504d224dcc1dcded2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37ca76974958401ed851ffee15f19907"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907">StatusCode</a> : std::int_least32_t { <a class="el" href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907ad0749aaba8b833466dfcbb0428e4f89c">SUCCESS</a> = 0
 , <a class="el" href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907a7946beb39a6dacba74fb33d8464904d6">LISTEN_ERROR</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907ac343dc0c08ca2791d4acdc2a559e63f8">WRONG_NUMBER_PARAMETERS</a>
+, <a class="el" href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907a188809d0b17e5b26d85e55f509c2edc9">CLIENT_WITH_SAME_NAME_ALREADY_CONNECTED</a> = 4999
  }</td></tr>
 <tr class="separator:a37ca76974958401ed851ffee15f19907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad1c980898235edf9dedd558533a2b886"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da9/namespaceyaodaq_ad1c980898235edf9dedd558533a2b886.html#ad1c980898235edf9dedd558533a2b886">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3">MessageType</a> &amp;messageTypes)</td></tr>
+<tr class="separator:ad1c980898235edf9dedd558533a2b886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section copyright"><dt>Copyright</dt><dd>Copyright 2022 flagarde </dd></dl>

@@ -107,13 +107,13 @@ $(document).ready(function(){initNavTree('da/d87/classyaodaq_1_1_websocket_serve
 <div class="line"><span class="lineno">   68</span>    <span class="keywordflow">if</span>( ret.first )</div>
 <div class="line"><span class="lineno">   69</span>    {</div>
 <div class="line"><span class="lineno">   70</span>      m_isListening = ret.first;</div>
-<div class="line"><span class="lineno">   71</span>      <a class="code hl_function" href="../../da/d87/classyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958.html#ada5bea7bf913d34bf1cb3cdfee670958">logger</a>()-&gt;info( <span class="stringliteral">&quot;Server listening on host {0} port {1}&quot;</span>, getHost(), getPort() );</div>
+<div class="line"><span class="lineno">   71</span>      <a class="code hl_function" href="../../da/d87/classyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958.html#ada5bea7bf913d34bf1cb3cdfee670958">logger</a>()-&gt;info( <span class="stringliteral">&quot;Server listening on {0}:{1}&quot;</span>, getHost(), getPort() );</div>
 <div class="line"><span class="lineno">   72</span>    }</div>
 <div class="line"><span class="lineno">   73</span>    <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">   74</span>      <span class="keywordflow">throw</span> Exception( <a class="code hl_enumvalue" href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907a7946beb39a6dacba74fb33d8464904d6">StatusCode::LISTEN_ERROR</a>, ret.second );</div>
 <div class="line"><span class="lineno">   75</span>  }</div>
 <div class="line"><span class="lineno">   76</span>}</div>
-<div class="ttc" id="aclassyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958_html_ada5bea7bf913d34bf1cb3cdfee670958"><div class="ttname"><a href="../../da/d87/classyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958.html#ada5bea7bf913d34bf1cb3cdfee670958">yaodaq::WebsocketServer::logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; logger()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d04/_websocket_server_8hpp_source.html#l00036">WebsocketServer.hpp:36</a></div></div>
+<div class="ttc" id="aclassyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958_html_ada5bea7bf913d34bf1cb3cdfee670958"><div class="ttname"><a href="../../da/d87/classyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958.html#ada5bea7bf913d34bf1cb3cdfee670958">yaodaq::WebsocketServer::logger</a></div><div class="ttdeci">std::shared_ptr&lt; spdlog::logger &gt; logger()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d04/_websocket_server_8hpp_source.html#l00034">WebsocketServer.hpp:34</a></div></div>
 <div class="ttc" id="anamespaceyaodaq_a37ca76974958401ed851ffee15f19907_html_a37ca76974958401ed851ffee15f19907a7946beb39a6dacba74fb33d8464904d6"><div class="ttname"><a href="../../d5/da9/namespaceyaodaq_a37ca76974958401ed851ffee15f19907.html#a37ca76974958401ed851ffee15f19907a7946beb39a6dacba74fb33d8464904d6">yaodaq::StatusCode::LISTEN_ERROR</a></div><div class="ttdeci">@ LISTEN_ERROR</div></div>
 </div><!-- fragment -->
 </div>

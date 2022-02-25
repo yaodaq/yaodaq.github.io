@@ -1,6 +1,6 @@
 var classyaodaq_1_1_websocket_server =
 [
-    [ "WebsocketServer", "da/d87/classyaodaq_1_1_websocket_server_a5f3a0faaf5c178ba7d61b6cbf461b4e0.html#a5f3a0faaf5c178ba7d61b6cbf461b4e0", null ],
+    [ "WebsocketServer", "da/d87/classyaodaq_1_1_websocket_server_a078a2d98973897f837129860421f0475.html#a078a2d98973897f837129860421f0475", null ],
     [ "~WebsocketServer", "da/d87/classyaodaq_1_1_websocket_server_ad95a8533a8c07dc7d01c461612514810.html#ad95a8533a8c07dc7d01c461612514810", null ],
     [ "listen", "da/d87/classyaodaq_1_1_websocket_server_a0892383b756eba3798eb1c7ab7a0fc55.html#a0892383b756eba3798eb1c7ab7a0fc55", null ],
     [ "logger", "da/d87/classyaodaq_1_1_websocket_server_ada5bea7bf913d34bf1cb3cdfee670958.html#ada5bea7bf913d34bf1cb3cdfee670958", null ],
