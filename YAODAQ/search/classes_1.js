@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['error_0',['Error',['../db/dcf/classyaodaq_1_1_error.html',1,'yaodaq']]],
-  ['exception_1',['Exception',['../d9/d69/classyaodaq_1_1_exception.html',1,'yaodaq']]]
+  ['identifier_0',['Identifier',['../d4/d36/classyaodaq_1_1_identifier.html',1,'yaodaq']]],
+  ['interrupt_1',['Interrupt',['../d9/df6/classyaodaq_1_1_interrupt.html',1,'yaodaq']]]
 ];

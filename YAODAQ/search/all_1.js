@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['board_0',['Board',['../d5/da9/namespaceyaodaq_a87fea990498aac57e480d5dc3aabd97e.html#a87fea990498aac57e480d5dc3aabd97ea6036d0a8b885529156168b3b69ee03cc',1,'yaodaq']]]
+  ['browser_0',['Browser',['../d5/da9/namespaceyaodaq_aaffeeac7c76409166db65a952cd10a73.html#aaffeeac7c76409166db65a952cd10a73aef15fd2f45e6bb5ce57587895ba64f93',1,'yaodaq']]]
 ];

@@ -99,9 +99,8 @@ $(document).ready(function(){initNavTree('d4/d36/classyaodaq_1_1_identifier_a5a7
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d37/_identifier_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d0/d37/_identifier_8cpp_source.html">Identifier.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{ <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>std::string<span class="keyword">&gt;</span>( magic_enum::enum_name( magic_enum::enum_cast&lt;Class&gt;( m_Key.<a class="code hl_function" href="../../dd/d8c/classyaodaq_1_1_key_a8395c50e39306610b8d4710107dd5713.html#a8395c50e39306610b8d4710107dd5713">getClass</a>() ).value() ) ); }</div>
-<div class="ttc" id="aclassyaodaq_1_1_key_a8395c50e39306610b8d4710107dd5713_html_a8395c50e39306610b8d4710107dd5713"><div class="ttname"><a href="../../dd/d8c/classyaodaq_1_1_key_a8395c50e39306610b8d4710107dd5713.html#a8395c50e39306610b8d4710107dd5713">yaodaq::Key::getClass</a></div><div class="ttdeci">std::int_least8_t getClass() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3d/_key_8cpp_source.html#l00015">Key.cpp:15</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d37/_identifier_8cpp_source.html#l00018">18</a> of file <a class="el" href="../../d0/d37/_identifier_8cpp_source.html">Identifier.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   18</span>{ <span class="keywordflow">return</span> std::string( magic_enum::enum_name( m_Class ) ); }</div>
 </div><!-- fragment -->
 </div>
 </div>

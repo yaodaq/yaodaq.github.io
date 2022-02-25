@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['message_2ecpp_0',['Message.cpp',['../d4/dab/_message_8cpp.html',1,'']]],
-  ['message_2ehpp_1',['Message.hpp',['../dc/dbc/_message_8hpp.html',1,'']]],
-  ['messagetype_2ehpp_2',['MessageType.hpp',['../d9/da5/_message_type_8hpp.html',1,'']]]
+  ['third_2dparty_20licenses_2emd_0',['Third-party licenses.md',['../de/d97/_third-party_01licenses_8md.html',1,'']]]
 ];
