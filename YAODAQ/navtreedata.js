@@ -26,10 +26,10 @@ var NAVTREE =
 [
   [ "YAODAQ", "index.html", [
     [ "License", "de/d7e/license.html", null ],
-    [ "Third-party licenses", "d2/d97/md_docs__third_party_licenses.html", [
-      [ "LICENSE ISSUES", "d2/d97/md_docs__third_party_licenses.html#autotoc_md4", [
-        [ "OpenSSL License", "d2/d97/md_docs__third_party_licenses.html#autotoc_md5", null ],
-        [ "Original SSLeay License", "d2/d97/md_docs__third_party_licenses.html#autotoc_md6", null ]
+    [ "Third-party licenses", "de/d1d/md_docs_Third_party_licenses.html", [
+      [ "LICENSE ISSUES", "de/d1d/md_docs_Third_party_licenses.html#autotoc_md4", [
+        [ "OpenSSL License", "de/d1d/md_docs_Third_party_licenses.html#autotoc_md5", null ],
+        [ "Original SSLeay License", "de/d1d/md_docs_Third_party_licenses.html#autotoc_md6", null ]
       ] ]
     ] ],
     [ "Namespaces", "namespaces.html", [
@@ -60,7 +60,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d8/d6a/_identifier_8hpp.html"
+"db/d45/classyaodaq_1_1Open.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

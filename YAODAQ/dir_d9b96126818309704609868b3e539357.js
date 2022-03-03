@@ -1,42 +1,42 @@
 var dir_d9b96126818309704609868b3e539357 =
 [
-    [ "Classification.hpp", "d2/d6f/_classification_8hpp.html", "d2/d6f/_classification_8hpp" ],
-    [ "ConnectionState.hpp", "d2/dc6/_connection_state_8hpp.html", [
-      [ "yaodaq::ConnectionState", "d0/d09/classyaodaq_1_1_connection_state.html", "d0/d09/classyaodaq_1_1_connection_state" ]
+    [ "Classification.hpp", "de/d3e/Classification_8hpp.html", "de/d3e/Classification_8hpp" ],
+    [ "ConnectionState.hpp", "d7/d8b/ConnectionState_8hpp.html", [
+      [ "yaodaq::ConnectionState", "dd/d3a/classyaodaq_1_1ConnectionState.html", "dd/d3a/classyaodaq_1_1ConnectionState" ]
     ] ],
-    [ "Exception.hpp", "de/d75/_exception_8hpp.html", [
-      [ "yaodaq::Exception", "d9/d69/classyaodaq_1_1_exception.html", "d9/d69/classyaodaq_1_1_exception" ]
+    [ "Exception.hpp", "da/d42/Exception_8hpp.html", [
+      [ "yaodaq::Exception", "d9/d86/classyaodaq_1_1Exception.html", "d9/d86/classyaodaq_1_1Exception" ]
     ] ],
-    [ "Identifier.hpp", "d8/d6a/_identifier_8hpp.html", [
-      [ "yaodaq::Identifier", "d4/d36/classyaodaq_1_1_identifier.html", "d4/d36/classyaodaq_1_1_identifier" ]
+    [ "Identifier.hpp", "d9/dec/Identifier_8hpp.html", [
+      [ "yaodaq::Identifier", "d9/d22/classyaodaq_1_1Identifier.html", "d9/d22/classyaodaq_1_1Identifier" ]
     ] ],
-    [ "Interrupt.hpp", "d3/da2/_interrupt_8hpp.html", [
-      [ "yaodaq::Interrupt", "d9/df6/classyaodaq_1_1_interrupt.html", "d9/df6/classyaodaq_1_1_interrupt" ]
+    [ "Interrupt.hpp", "df/d2b/Interrupt_8hpp.html", [
+      [ "yaodaq::Interrupt", "d5/d69/classyaodaq_1_1Interrupt.html", "d5/d69/classyaodaq_1_1Interrupt" ]
     ] ],
-    [ "IXWebsocketMessage.hpp", "dc/d2f/_i_x_websocket_message_8hpp.html", [
-      [ "yaodaq::Open", "d0/dd0/classyaodaq_1_1_open.html", "d0/dd0/classyaodaq_1_1_open" ]
+    [ "IXWebsocketMessage.hpp", "d6/d39/IXWebsocketMessage_8hpp.html", [
+      [ "yaodaq::Open", "db/d45/classyaodaq_1_1Open.html", "db/d45/classyaodaq_1_1Open" ]
     ] ],
-    [ "Key.hpp", "d9/d0c/_key_8hpp.html", [
-      [ "yaodaq::Key", "dd/d8c/classyaodaq_1_1_key.html", "dd/d8c/classyaodaq_1_1_key" ]
+    [ "Key.hpp", "d8/dd7/Key_8hpp.html", [
+      [ "yaodaq::Key", "db/d80/classyaodaq_1_1Key.html", "db/d80/classyaodaq_1_1Key" ]
     ] ],
-    [ "LoggerHandler.hpp", "dd/d28/_logger_handler_8hpp.html", "dd/d28/_logger_handler_8hpp" ],
-    [ "Looper.hpp", "d5/dbe/_looper_8hpp.html", [
-      [ "yaodaq::Looper", "d7/dd7/classyaodaq_1_1_looper.html", "d7/dd7/classyaodaq_1_1_looper" ]
+    [ "LoggerHandler.hpp", "de/da6/LoggerHandler_8hpp.html", "de/da6/LoggerHandler_8hpp" ],
+    [ "Looper.hpp", "d7/d5d/Looper_8hpp.html", [
+      [ "yaodaq::Looper", "df/d4e/classyaodaq_1_1Looper.html", "df/d4e/classyaodaq_1_1Looper" ]
     ] ],
-    [ "Message.hpp", "dc/dbc/_message_8hpp.html", [
-      [ "yaodaq::Message", "d8/dae/classyaodaq_1_1_message.html", "d8/dae/classyaodaq_1_1_message" ]
+    [ "Message.hpp", "d3/d68/Message_8hpp.html", [
+      [ "yaodaq::Message", "de/df4/classyaodaq_1_1Message.html", "de/df4/classyaodaq_1_1Message" ]
     ] ],
-    [ "MessageType.hpp", "d9/da5/_message_type_8hpp.html", "d9/da5/_message_type_8hpp" ],
-    [ "Severity.hpp", "d2/d4d/_severity_8hpp.html", "d2/d4d/_severity_8hpp" ],
-    [ "Signal.hpp", "d6/d52/_signal_8hpp.html", "d6/d52/_signal_8hpp" ],
-    [ "StatusCode.hpp", "d1/d37/_status_code_8hpp.html", "d1/d37/_status_code_8hpp" ],
-    [ "Version.hpp", "d7/d67/_version_8hpp.html", [
-      [ "yaodaq::Version", "da/d4c/classyaodaq_1_1_version.html", "da/d4c/classyaodaq_1_1_version" ]
+    [ "MessageType.hpp", "d3/d43/MessageType_8hpp.html", "d3/d43/MessageType_8hpp" ],
+    [ "Severity.hpp", "dc/d54/Severity_8hpp.html", "dc/d54/Severity_8hpp" ],
+    [ "Signal.hpp", "d8/d84/Signal_8hpp.html", "d8/d84/Signal_8hpp" ],
+    [ "StatusCode.hpp", "d3/dac/StatusCode_8hpp.html", "d3/dac/StatusCode_8hpp" ],
+    [ "Version.hpp", "d6/d76/Version_8hpp.html", [
+      [ "yaodaq::Version", "d5/def/classyaodaq_1_1Version.html", "d5/def/classyaodaq_1_1Version" ]
     ] ],
-    [ "WebsocketClient.hpp", "d8/d8a/_websocket_client_8hpp.html", [
-      [ "yaodaq::WebsocketClient", "d2/d57/classyaodaq_1_1_websocket_client.html", "d2/d57/classyaodaq_1_1_websocket_client" ]
+    [ "WebsocketClient.hpp", "d0/dc1/WebsocketClient_8hpp.html", [
+      [ "yaodaq::WebsocketClient", "d8/da1/classyaodaq_1_1WebsocketClient.html", "d8/da1/classyaodaq_1_1WebsocketClient" ]
     ] ],
-    [ "WebsocketServer.hpp", "dd/d04/_websocket_server_8hpp.html", [
-      [ "yaodaq::WebsocketServer", "da/d87/classyaodaq_1_1_websocket_server.html", "da/d87/classyaodaq_1_1_websocket_server" ]
+    [ "WebsocketServer.hpp", "dd/da4/WebsocketServer_8hpp.html", [
+      [ "yaodaq::WebsocketServer", "d4/d4f/classyaodaq_1_1WebsocketServer.html", "d4/d4f/classyaodaq_1_1WebsocketServer" ]
     ] ]
 ];

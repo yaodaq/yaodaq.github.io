@@ -6,5 +6,5 @@ var searchData=
   ['configurator_3',['Configurator',['../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fa39ce191dba5adfb7b8bed6f38adf8cb5',1,'yaodaq']]],
   ['connectionerror_4',['ConnectionError',['../d5/da9/namespaceyaodaq_a26cd04cc5ef719b0e8b0b730689ddeb3.html#a26cd04cc5ef719b0e8b0b730689ddeb3a094a6f6b0868122a9dd008cb91c083e4',1,'yaodaq']]],
   ['controller_5',['Controller',['../d5/da9/namespaceyaodaq_a9c859f9cf743c4520cb678d7aa62607f.html#a9c859f9cf743c4520cb678d7aa62607fa9bbf373797bf7cf7ba62c80023682e25',1,'yaodaq']]],
-  ['critical_6',['Critical',['../d0/d3c/classyaodaq_1_1_logger_handler_a9ff4a0c06d54857bf9b36147e2d56001.html#a9ff4a0c06d54857bf9b36147e2d56001a278d01e5af56273bae1bb99a98b370cd',1,'yaodaq::LoggerHandler::Critical()'],['../d5/da9/namespaceyaodaq_ace8282a2f4797b7cc8f203e9b7acc14a.html#ace8282a2f4797b7cc8f203e9b7acc14aa278d01e5af56273bae1bb99a98b370cd',1,'yaodaq::Critical()']]]
+  ['critical_6',['Critical',['../da/ded/classyaodaq_1_1LoggerHandler_a9ff4a0c06d54857bf9b36147e2d56001.html#a9ff4a0c06d54857bf9b36147e2d56001a278d01e5af56273bae1bb99a98b370cd',1,'yaodaq::LoggerHandler::Critical()'],['../d5/da9/namespaceyaodaq_ace8282a2f4797b7cc8f203e9b7acc14a.html#ace8282a2f4797b7cc8f203e9b7acc14aa278d01e5af56273bae1bb99a98b370cd',1,'yaodaq::Critical()']]]
 ];

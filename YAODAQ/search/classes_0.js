@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['connectionstate_0',['ConnectionState',['../d0/d09/classyaodaq_1_1_connection_state.html',1,'yaodaq']]]
+  ['connectionstate_0',['ConnectionState',['../dd/d3a/classyaodaq_1_1ConnectionState.html',1,'yaodaq']]]
 ];
